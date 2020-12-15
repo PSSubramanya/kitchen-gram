@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kitchen_recipie_application/components/homePage.dart';
+import 'package:kitchen_recipie_application/view/authentication/registerPage.dart';
+import 'package:kitchen_recipie_application/view/components/splashScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }
